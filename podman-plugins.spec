@@ -60,6 +60,7 @@ BuildRequires: glibc-static
 BuildRequires: git
 BuildRequires: make
 Requires: podman
+Requires: dnsmasq
 
 %description
 This plugin sets up the use of dnsmasq on a given CNI network so
